@@ -1,0 +1,16 @@
+/* Step 1: Load the custom font */
+@font-face {
+  font-family: 'Oswald';
+  src: url('fonts/Oswald-Regular.ttf');
+}
+
+/* Step 2: Apply font to h2 */
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #e11d74;
+}
+
+/* Step 3: Apply font to paragraph */
+p {
+  font-family: 'Oswald', sans-serif;
+}
