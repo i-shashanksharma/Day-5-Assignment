@@ -1,0 +1,20 @@
+/* Base Button Styling */
+.btn {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #f28b82;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: top 0.5s, left 0.5s, box-shadow 1s ease, background-color 1s ease;
+}
+
+/* Hover Effect */
+.btn:hover {
+  top: 1px;
+  left: 1px;
+  box-shadow: 3px 3px 0px rgb(0, 0, 0);
+  background-color: rgb(255, 111, 111);
+}
