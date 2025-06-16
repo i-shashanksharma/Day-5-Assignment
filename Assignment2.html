@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartX Watch - Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Basic Reset and Fonts */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        /* Header Section */
+        header {
+            background: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9') no-repeat center center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Product Info */
+        .product-info {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .product-info img {
+            max-width: 250px;
+            margin: 20px auto;
+            transition: transform 0.3s;
+        }
+
+        .product-info img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Features Section */
+        .features {
+            background-color: #e0f7fa;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 40px 20px;
+            background-color: #f0f4f8;
+        }
+
+        .testimonial {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .product-info img {
+                max-width: 100%;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>SmartX Watch</h1>
+        <p>Experience the future on your wrist</p>
+    </header>
+
+    <!-- Product Info -->
+    <section class="product-info">
+        <h2>Meet the SmartX</h2>
+        <img src="https://images.unsplash.com/photo-1606813904195-0f94b7f1bfa3" alt="Smart Watch">
+        <p>The SmartX Watch is the ultimate companion for your daily lifestyle. Stay connected, track fitness, and look stylish — all from your wrist.</p>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="feature">
+            <h3>Heart Rate Monitor</h3>
+            <p>Real-time health tracking to keep you in shape.</p>
+        </div>
+        <div class="feature">
+            <h3>Notifications</h3>
+            <p>Get calls, texts, and app alerts instantly.</p>
+        </div>
+        <div class="feature">
+            <h3>Long Battery Life</h3>
+            <p>Up to 7 days on a single charge.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">"This watch changed how I manage my day! 5/5 Stars!" - Priya S.</div>
+        <div class="testimonial">"Lightweight, powerful, and sleek. Totally worth it." - Arjun M.</div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SmartX Inc. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
