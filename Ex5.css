@@ -1,0 +1,29 @@
+/* Basic container styling */
+.container {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+/* 'New' badge using ::after */
+.container .new::after {
+    content: 'New';
+    font-size: 13px;
+    color: white;
+    background-color: goldenrod;
+    margin-left: 10px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+/* 'Trending' badge using ::after */
+.container .trending::after {
+    content: 'Trending';
+    font-size: 13px;
+    color: white;
+    background-color: palevioletred;
+    margin-left: 10px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
